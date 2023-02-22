@@ -277,9 +277,9 @@ $( document ).ready(function() {
   workSlider();
   transitionLabels();
 
+});
 
-
-  // validate Form submit
+// validate Form submit
 function validateForm() {
   const opcion1 = document.getElementsByName('opcionWork')[0];
   const opcion2 = document.getElementsByName('opcionWebside')[0];
@@ -305,6 +305,10 @@ openModalTerminal.onclick=function() {
 }
 closeModalTerminal.onclick=function(){
 modalBit.style.visibility="hidden";
+}
+
+modalBit.onclick=function(){
+  modalBit.style.visibility="hidden";
 }
 
 
@@ -345,5 +349,3 @@ $.fn.typewriter = function() {
   return this;
 };
 $('#terminal').typewriter();
-});
-
