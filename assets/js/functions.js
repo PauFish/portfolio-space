@@ -277,4 +277,73 @@ $( document ).ready(function() {
   workSlider();
   transitionLabels();
 
+
+
+  // validate Form submit
+function validateForm() {
+  const opcion1 = document.getElementsByName('opcionWork')[0];
+  const opcion2 = document.getElementsByName('opcionWebside')[0];
+  
+  if (!opcion1.checked && !opcion2.checked) {
+    alert('You can not navigate the universe without a clear course! You must select at least one option to guide our trajectory');
+    event.preventDefault();
+  } else if (opcion1.checked && opcion2.checked) {
+    alert('Our navigation system only allows for one option to be selected. Please choose wisely');
+    event.preventDefault();
+  }
+}
+
+// Terminal typewriting
+
+let openModalTerminal = document.getElementById('openModalTerminal');
+let modalBit = document.getElementById('modalTerminal')
+let closeModalTerminal = document.getElementById('closeTerminal');
+
+//open modal Terminal
+openModalTerminal.onclick=function() {
+  modalBit.style.visibility="visible";
+}
+closeModalTerminal.onclick=function(){
+modalBit.style.visibility="hidden";
+}
+
+
+
+$.fn.typewriter = function() {
+  this.each(function() {
+      var $ele = $(this), str = $ele.html(), progress = 0, offset = 0;
+      $ele.html('');
+      var typewriting = function() {
+        
+        if(str.substring(progress, progress + 1) == "<"){
+          var re = new RegExp(/<span class="instant"/);
+          var cl = new RegExp(/<span class="clear"/);
+          if (str.substring(progress,str.length).match(re)) {
+            progress += str.substring(progress,str.length).indexOf('</span>')+7;
+          }else if(str.substring(progress,str.length).match(cl)){
+            offset = progress;
+            progress += str.substring(progress,str.length).indexOf('</span>')+7;
+            
+            
+          }else{
+          while(str.substring(progress, progress + 1) != ">"){
+            progress++;
+          }
+          }
+        }
+          
+          $ele.html(str.substring(offset, progress++) + (progress & 1 ? '_' : ''));
+        if (progress >= str.length){
+          return;
+        }
+        else{
+          setTimeout(typewriting, 10 + Math.random()*100);
+        }
+      }
+      typewriting();
+  });
+  return this;
+};
+$('#terminal').typewriter();
 });
+
