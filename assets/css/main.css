@@ -775,6 +775,7 @@ body {
     }
 }
 .work {
+    
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1069,7 +1070,7 @@ body {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin: 0;
+    margin-top: 20px;
     padding: 0;
     list-style: none;
 }
@@ -1251,6 +1252,7 @@ body {
     font-weight: 700;
 }
 .hire {
+    background-image: url(assets\img\stars.webp);
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
