@@ -1719,3 +1719,5 @@ $.fn.typewriter = function() {
     return this;
 };
 $('#terminal').typewriter();
+
+
