@@ -1721,3 +1721,27 @@ $.fn.typewriter = function() {
 $('#terminal').typewriter();
 
 
+// Function To Randomly Generate stars using BoxShadow CSS Property
+
+function randomStars(n) {
+    
+    let value = `${Math.floor(Math.random() * 2000 + 2)}px ${Math.floor(
+      Math.random() * 2000 + 2
+    )}px #FFF`;
+    for (let i = 0; i < n; i = i + 2) {
+      value = `${value} , ${Math.floor(Math.random() * 2000 + 2)}px ${Math.floor(
+        Math.random() * 2000 + 2
+      )}px #FFF`;
+    }
+    return value;
+  }
+  
+  let stars1 = document.getElementById("stars-group1");
+  let stars2 = document.getElementById("stars-group2");
+  let stars3 = document.getElementById("stars-group3");
+  
+  stars1.style["boxShadow"] = randomStars(900);
+  stars2.style["boxShadow"] = randomStars(300);
+  stars3.style["boxShadow"] = randomStars(200);
+  
+  
