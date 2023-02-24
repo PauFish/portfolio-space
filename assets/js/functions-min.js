@@ -1743,5 +1743,10 @@ function randomStars(n) {
   stars1.style["boxShadow"] = randomStars(900);
   stars2.style["boxShadow"] = randomStars(300);
   stars3.style["boxShadow"] = randomStars(200);
+
+
+
+  //education stars
+  
   
   
