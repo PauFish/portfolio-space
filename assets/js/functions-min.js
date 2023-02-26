@@ -1740,6 +1740,7 @@ function randomStars(n) {
   let stars2 = document.getElementById("stars-group2");
   let stars3 = document.getElementById("stars-group3");
   
+  
   stars1.style["boxShadow"] = randomStars(900);
   stars2.style["boxShadow"] = randomStars(300);
   stars3.style["boxShadow"] = randomStars(200);
