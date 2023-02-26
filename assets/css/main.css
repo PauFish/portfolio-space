@@ -1661,16 +1661,7 @@ font-size: 10em;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  
-  h1{
-    font-size: 2.5rem;
-    font-family: 'Montserrat';
-    font-weight: normal;
-    color: #444;
-    text-align: center;
-    margin: 2rem 0;
-  }
-  
+
   .wrapper{
     width: 90%;
     margin: 0 auto;
