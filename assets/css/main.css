@@ -559,6 +559,8 @@ body {
     font-size: 14px;
     font-weight: 300;
 }
+
+/*where side-nav magics is at*/
 .side-nav li:nth-child(1)::before {
     content: "01";
 }
@@ -573,6 +575,12 @@ body {
 }
 .side-nav li:nth-child(5)::before {
     content: "05";
+}
+.side-nav li:nth-child(6)::before {
+    content: "06";
+}
+.side-nav li:nth-child(7)::before {
+    content: "07";
 }
 .side-nav li.is-active {
     color: #0f33ff;
