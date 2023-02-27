@@ -109,6 +109,7 @@
         <h3>Github</h3>
       </a>
   </div>
+</div>
 </li>
 
  <!--------------------PORTFOLIO --------------------------------------------------->  
@@ -250,63 +251,67 @@
           </li>
 
  <!--------------------CONTACT --------------------------------------------------->
-          <li class="l-section section">
-            <div class="contact">
-              <div class="contact--lockup">
-                <form class="work-request"><h1>Ground Control:</h1>
-                  <div class="work-request--options">
-                    <span class="options-a">
-                      <input id="opt-1" type="checkbox"name="opcionWork" value="app design">
-                      <label for="opt-1">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                        <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                          <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                        </g>
-                        </svg>
-                        I like your work. please let's work together!
-                      </label>
-                      <input id="opt-2" type="checkbox" name="opcionWebside" value="graphic design">
-                      <label for="opt-2">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                        <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                          <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                        </g>
-                        </svg>
-                        3,2,1...Houston, we have a website request!
-                      </label>
-                  </div>
-                  <div class="work-request--information">
+<li class="l-section section">
+    <div class="contact">
+        <div class="contact--lockup">
+            <form
+                class="work-request"
+                action="https://formsubmit.co/info@paufish.es"
+                method="POST">
+                <div class="message-h1">
+                    <h1 >Send a Message</h1>
+                </div>
+                <div class="work-request--information form-flex">
                     <div class="information-name">
-                      <input id="name" type="text" spellcheck="false" required>
-                      <label for="name">Name</label>
-                    </div>
-                    <div class="information-email">
-                      <input id="email" type="email" spellcheck="false" required>
-                      <label for="email">Email</label>
-                    </div>
-                  </div>
-                  <input type="submit" onclick="validateForm()" value="Send Request">
-                </form>
-              </div>
+                        <input type="text" name="name" placeholder="Your Name..." required="required"></div>
+                        <br>
+                            <div class="information-email">
+                                <input type="text" name="email" placeholder="Your Email..." required="required"></div>
+                                <textarea
+                                    class="textarea-submit"
+                                    name="message"
+                                    rows="5"
+                                    cols="45"
+                                    placeholder=" MESSAGE..."
+                                    required="required"></textarea>
+                                <!-- Change the Subject of the email to make it look the most handsome-->
+                                <input type="hidden" name="_subject" value="Contact from www.paufish.es">
+                                    <!-- email templete https://formsubmit.co/email-templates-->
+                                    <input type="hidden" name="_template" value="box"></div>
+                                    <div class="stage"></div>
+                                    <button type="submit" class="send-form">Send</button>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-          </li>
-        </ul>
-      </div>
+        </div>
     </div>
-  </div>
 
-<!-------------------- OUTER 3D NAV --------------------------------------------------->
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li><span>About me</span></li>
-    <li><span>Portfolio</span></li>
-    <li><span>Career</span></li>
-    <li><span>Skills</span></li>
-    <li><span>Education</span></li>
-    <li><span>Contact</span></li>
-  </ul>
+    <!-------------------- OUTER 3D NAV
+    --------------------------------------------------->
+    <ul class="outer-nav">
+        <li class="is-active">Home</li>
+        <li>
+            <span>About me</span>
+        </li>
+        <li>
+            <span>Portfolio</span>
+        </li>
+        <li>
+            <span>Career</span>
+        </li>
+        <li>
+            <span>Skills</span>
+        </li>
+        <li>
+            <span>Education</span>
+        </li>
+        <li>
+            <span>Contact</span>
+        </li>
+    </ul>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

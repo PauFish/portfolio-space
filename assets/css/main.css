@@ -1953,12 +1953,90 @@ font-size: 10em;
   background:rgba(0,0,0,0.2);
   box-shadow:0 0 0px 3px rgba(0,0,0,0.2);
   opacity:0.3
-}#btn-twtr:hover{color:#fff;opacity:1}
-
+}
+#btn-twtr:hover{
+    color:#fff;opacity:1
+}
 .skills{
     text-align:center;
     
 }
+.form-flex{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+}
+.send-form{
+   
+    --color: #fff;
+  --bg-color: black;
+  --button-font-size: 1rem;
+    
+text-transform: uppercase;
+text-decoration: none;
+background-color: var(--bg-color);
+border: 0.15em solid var(--color);
+color: var(--color);
+padding: 0.6em 1em;
+border-radius: 0.25em;
+text-shadow: 0 0 0.5em;
+box-shadow: 0 0 0.7em 0, inset 0 0 0.4em 0;
+display: inline-block;
+position: relative;
+transition: all 0.4s ease;
+letter-spacing: 0.15em;
+   
 
-      
-      
+}
+.stage {
+    display: grid;
+    place-items: center;
+    background: var(--bg-color);
+  }
+
+
+
+.send-form:before,
+.send-form:focus:before {
+pointer-events: none;
+content: "";
+position: absolute;
+inset: 0;
+top: 150%;
+background: var(--color);
+width: 100%;
+height: 100%;
+transform: perspective(3em) rotateX(80deg);
+filter: blur(1em);
+opacity: 0.7;
+transition: all 0.8s ease;
+}
+
+.send-form:hover,
+.send-form:focus {
+outline: 0;
+background: var(--color);
+color: var(--bg-color);
+box-shadow: 0 0 1em 0.2em var(--color);
+text-shadow: none;
+}
+
+.send-form:hover:before,
+.send-form:focus:before {
+opacity: 1;
+transform: perspective(2.6em) rotateX(80deg);
+}
+
+.textarea-submit{
+    margin-top: 30px;
+    padding: 6px;
+    background-color: #000;
+    border:solid #0f33ff 7px;
+}
+.message-h1{
+    color:#c7c7c7;
+}
+
