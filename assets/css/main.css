@@ -192,6 +192,7 @@ legend {
 }
 textarea {
     overflow: auto;
+    color:black;
 }
 optgroup {
     font-weight: bold;
@@ -2093,32 +2094,32 @@ transform: perspective(2.6em) rotateX(80deg);
   
   @keyframes glitch {
     0% {
-      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-        0.025em 0.04em 0 #fffc00;
+      text-shadow: 0.05em 0 0 #00a6ff, -0.03em -0.04em 0 #0f33ff,
+        0.025em 0.04em 0 #00ffbf;
     }
     15% {
-      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-        0.025em 0.04em 0 #fffc00;
+      text-shadow: 0.05em 0 0 #00a6ff, -0.03em -0.04em 0 #0f33ff,
+        0.025em 0.04em 0 #00ffbf;
     }
     16% {
-      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
-        -0.05em -0.05em 0 #fffc00;
+      text-shadow: -0.05em -0.025em 0 #00a6ff, 0.025em 0.035em 0 #0f33ff,
+        -0.05em -0.05em 0 #00ffbf;
     }
     49% {
-      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
-        -0.05em -0.05em 0 #fffc00;
+      text-shadow: -0.05em -0.025em 0 #00a6ff, 0.025em 0.035em 0 #0f33ff,
+        -0.05em -0.05em 0 #00ffbf;
     }
     50% {
-      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
-        0 -0.04em 0 #fffc00;
+      text-shadow: 0.05em 0.035em 0 #00a6ff, 0.03em 0 0 #0f33ff,
+        0 -0.04em 0 #00ffbf;
     }
     99% {
-      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
-        0 -0.04em 0 #fffc00;
+      text-shadow: 0.05em 0.035em 0 #00a6ff, 0.03em 0 0 #0f33ff,
+        0 -0.04em 0 #00ffbf;
     }
     100% {
-      text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
-        -0.04em -0.025em 0 #fffc00;
+      text-shadow: -0.05em 0 0 #00a6ff, -0.025em -0.04em 0 #00ffbf,
+        -0.04em -0.025em 0 #00ffbf;
     }
   }
   
@@ -2408,11 +2409,12 @@ transform: perspective(2.6em) rotateX(80deg);
     clear: both;
 }
 
-#kapsa {
+#coding-machine {
     width: 100%;
     max-width: 800px;
     margin: 15px auto 15px auto;
     opacity: 0.9;
+    text-align: left;
 }
 
 #ust {
@@ -2429,11 +2431,11 @@ transform: perspective(2.6em) rotateX(80deg);
     color: rgb(255, 255, 255);
 }
 
-#islem {
+#circles {
     float: right;
 }
 
-#y, #k {
+#exit-circle {
     background: #ffffff;
     width: 12px;
     height: 12px;
@@ -2443,18 +2445,10 @@ transform: perspective(2.6em) rotateX(80deg);
     cursor: pointer;
 }
 
-#s {
-    background: #9e9e9e;
-    width: 12px;
-    height: 12px;
-    border-radius: 100%;
-    display: inline-block;
-    margin: 0 2px;
-    cursor: pointer;
-}
 
 
-#no {
+
+#numbers-terminal {
     width: 41px;
     background: #263238;
     text-align: right;
@@ -2467,7 +2461,7 @@ transform: perspective(2.6em) rotateX(80deg);
     display: block;
 }
 
-#satir {
+#inside-skill-terminal {
     background: #1B2225;
     color: #cdd3de;
     display: inline-block;
@@ -2475,13 +2469,13 @@ transform: perspective(2.6em) rotateX(80deg);
     width: calc(100% - 41px);
 }
 
-.yorum {
-    color: #98A8B5;
+.comment-terminal {
+    color: #5cac6a;
     font-weight: 400;
     display: block;
 }
 
-.yorum a {
+.comment-terminal a {
     text-decoration: none;
     border-bottom: 1px dotted;
     color: aquamarine;
@@ -2501,12 +2495,16 @@ transform: perspective(2.6em) rotateX(80deg);
     color: #cccccc;
 }
 
-.secici {
-    color: #CDFF8E;
+.css-terminal {
+    color: #ffff67;
 }
 
-.ozellik {
+.text-terminal {
     color: #FFFFFF;
+}
+
+.terminal-footer {
+    color:#000;
 }
 
 .onemli {
