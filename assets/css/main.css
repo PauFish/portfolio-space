@@ -2419,7 +2419,7 @@ transform: perspective(2.6em) rotateX(80deg);
 }
 
 #ust {
-    background: #747474;
+    background: #74747499;
     height: 30px;
     line-height: 30px;
     border-radius: 15px 15px 0 0;
@@ -2438,12 +2438,12 @@ transform: perspective(2.6em) rotateX(80deg);
 
 #exit-circle {
     background: #ffffff;
+    border: 3px solid #0f33ff;
     width: 12px;
     height: 12px;
     border-radius: 100%;
     display: inline-block;
     margin: 0 2px;
-    cursor: pointer;
 }
 
 
@@ -2451,9 +2451,9 @@ transform: perspective(2.6em) rotateX(80deg);
 
 #numbers-terminal {
     width: 41px;
-    background: #263238;
+    background: #263238a5;
     text-align: right;
-    padding: 7px 10px 7px 0;
+    padding: 7px 10px 10px 0;
     float: left;
     color: #cdd3de;
 }
@@ -2505,7 +2505,7 @@ transform: perspective(2.6em) rotateX(80deg);
 }
 
 .terminal-footer {
-    color:#000;
+    color:#ffffff;
 }
 
 .onemli {
@@ -2514,7 +2514,7 @@ transform: perspective(2.6em) rotateX(80deg);
 }
 
 #alt {
-    background: #747474;
+    background: #74747499;;
     height: 30px;
     line-height: 30px;
     border-radius: 0 0 15px 15px;
@@ -2528,3 +2528,4 @@ transform: perspective(2.6em) rotateX(80deg);
     text-decoration: none;
     color: #213738;
 }
+
