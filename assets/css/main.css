@@ -2056,7 +2056,9 @@ transform: perspective(2.6em) rotateX(80deg);
 }
 
 .your-name input::placeholder, .your-email input::placeholder {
-    color: #000000;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-weight: bold;
     text-transform: uppercase;
   }
 
