@@ -574,6 +574,8 @@ body {
 .side-nav li:nth-child(4)::before {
     content: "04";
 }
+
+/*
 .side-nav li:nth-child(5)::before {
     content: "05";
 }
@@ -583,6 +585,8 @@ body {
 .side-nav li:nth-child(7)::before {
     content: "07";
 }
+
+*/
 .side-nav li.is-active {
     color: #0f33ff;
     -webkit-transition: color 0.4s ease-in-out;
