@@ -769,7 +769,7 @@ body {
         font-size: 55px;
     }
     .intro--banner img {
-        display: none;
+        width: 60%;
     }
 }
 @media (max-width: 600px) and (max-height: 750px) {
@@ -785,6 +785,10 @@ body {
     }
     .intro--options {
         display: none;
+    }
+
+    .message-h1{
+        font-size: 120px;
     }
 }
 .work {
@@ -1132,7 +1136,7 @@ body {
         left: 260px;
     }
     .about--banner h2 {
-        margin-top: 10px;
+        margin-top: 5px;
         font-size: 44px;
     }
     .about--banner h2::before {
@@ -1169,12 +1173,14 @@ body {
         top: 205px;
         left: 205px;
     }
-    .about--banner img {
-        display: none;
+   
+    .about--options a{
+       margin-top:50px;
+       margin: 3px;
+       border: 8px solid #0f33ff ;
+       
     }
-    .about--options {
-        display: none;
-    }
+
 }
 .contact {
     position: fixed;
@@ -1469,6 +1475,8 @@ body {
     }
 }
 @media (max-width: 600px) and (max-width: 415px) {
+  
+   
     .work-request--options {
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
