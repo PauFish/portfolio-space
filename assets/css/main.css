@@ -575,10 +575,10 @@ body {
     content: "04";
 }
 
-/*
 .side-nav li:nth-child(5)::before {
     content: "05";
 }
+/*
 .side-nav li:nth-child(6)::before {
     content: "06";
 }
@@ -763,10 +763,10 @@ body {
 }
 @media (max-width: 600px) {
     .intro--banner {
-        height: 360px;
+        height: 20%;
     }
     .intro--banner h1 {
-        font-size: 55px;
+        font-size: 35px;
     }
     .intro--banner img {
         width: 60%;
@@ -783,9 +783,7 @@ body {
     .intro--banner h1 {
         margin-top: 0;
     }
-    .intro--options {
-        display: none;
-    }
+    
 }
 .work {
     
@@ -1113,7 +1111,7 @@ body {
 .about--options h3 {
     position: absolute;
     bottom: -38px;
-    left: 10px;
+    left: 15px;
     font-size: 16px;
     text-transform: uppercase;
     -webkit-transition: bottom 0.2s ease-in-out,left 0.2s ease-in-out;
@@ -2485,6 +2483,7 @@ transform: perspective(2.6em) rotateX(80deg);
 }
 
 .comment-terminal {
+    margin-top: 25%;
     color: #5cac6a;
     font-weight: 400;
     display: block;
@@ -2512,6 +2511,9 @@ transform: perspective(2.6em) rotateX(80deg);
 
 .css-terminal {
     color: #ffff67;
+}
+.css-decl-terminal{
+    color:#60bbeb;
 }
 
 .text-terminal {
