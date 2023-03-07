@@ -1544,7 +1544,7 @@ body {
 .outer-nav {
     position: absolute;
     top: 50%;
-    left: 55%;
+    left: 45%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-transform-style: preserve-3d;
@@ -2383,12 +2383,8 @@ transform: perspective(2.6em) rotateX(80deg);
   
   .desc {
       position: relative;
-      margin: 1em 0 0 0;
-      padding: 1em;
-      background: rgb(245,245,245);
-      -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
-      -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
-      box-shadow: 0 0 1px rgba(0,0,0,0.20);
+      margin: 0 auto;
+      color:white !important;
       font-size: 12px !important;
     z-index: 15;
   }
@@ -2477,7 +2473,7 @@ transform: perspective(2.6em) rotateX(80deg);
 }
 
 .comment-terminal {
-    margin-top: 25%;
+    margin-top: 20%;
     color: #5cac6a;
     font-weight: 400;
     display: block;
@@ -2552,6 +2548,7 @@ transform: perspective(2.6em) rotateX(80deg);
     font-size: 24px;
     line-height: 40px;
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
+    max-height: 85vh;
   }
   
   .card-object header {
@@ -2605,6 +2602,7 @@ transform: perspective(2.6em) rotateX(80deg);
   }
  .message-header{
     font-weight: bold;
+    
  }
   
   @keyframes rotate{
@@ -2670,11 +2668,35 @@ transform: perspective(2.6em) rotateX(80deg);
     right: 20px;
     top:20px;
   }
+  .paper-carrer-text{
+    color: black;
+}
+  @media screen and (min-width: 300px) and ( max-width:1000px) {
 
-  @media screen and (min-width: 400px) and ( max-width: 660px) {
-  
-    .card-object main {
-        font-size: 0.7rem;
-      }
+
+    .message{
+        margin: 0 auto;
+        padding: 0 auto;
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 30px;
     }
-    
+    .card-object main .message{
+        margin: 4%;
+        background-image: none;
+
+    }
+    .message-header{
+        display: none !important;
+
+    }
+    .card-object main .message{
+        margin:3px;
+}
+.card-object header {
+    height: 15px;
+  }
+.paper-carrer-text{
+    color: black;
+}
+}
