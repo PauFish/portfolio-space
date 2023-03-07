@@ -2310,6 +2310,7 @@ transform: perspective(2.6em) rotateX(80deg);
   @media screen and (max-width: 660px) {
   
   .timeline {
+    margin-top: 15%;
        width: 100%;
   }
   
@@ -2388,7 +2389,7 @@ transform: perspective(2.6em) rotateX(80deg);
       -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
       -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
       box-shadow: 0 0 1px rgba(0,0,0,0.20);
-      
+      font-size: 12px !important;
     z-index: 15;
   }
   
@@ -2397,8 +2398,7 @@ transform: perspective(2.6em) rotateX(80deg);
       position: relative;
       margin: 1em 1em 0 1em;
       padding: 1em;
-      
-    z-index: 15;
+      z-index: 15;
   }
   
   }
@@ -2411,10 +2411,6 @@ transform: perspective(2.6em) rotateX(80deg);
   }
   
   }
-
-  
-
-
 
   .temizle {
     clear: both;
