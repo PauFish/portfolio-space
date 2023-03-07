@@ -2311,7 +2311,6 @@ transform: perspective(2.6em) rotateX(80deg);
   
   .timeline {
        width: 100%;
-      padding: 4em 0 1em 0;
   }
   
   .timeline li {
@@ -2338,7 +2337,7 @@ transform: perspective(2.6em) rotateX(80deg);
   .direction-l .flag:before,
   .direction-r .flag:before {
     position: absolute;
-    top: -30px;
+    top: -25px;
       left: 50%;
       content: ' ';
       display: block;
@@ -2408,7 +2407,7 @@ transform: perspective(2.6em) rotateX(80deg);
   
   .direction-l .desc,
   .direction-r .desc {
-      margin: 1em 4em 0 4em;
+     color:#000;
   }
   
   }
@@ -2424,10 +2423,9 @@ transform: perspective(2.6em) rotateX(80deg);
 #coding-machine {
     width: 100%;
     max-width: 800px;
-    margin: 15px auto 15px auto;
+    margin: 5px auto 5px auto;
     opacity: 0.9;
     text-align: left;
-    margin-top: 8%;
 }
 
 #ust {
