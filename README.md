@@ -2,8 +2,7 @@
 
 Is a modern and sleek website that i hope you like. 
 
-This project was developed with HTML5, Sass, jQuery, and Hammer.js.
-
+This project was developed with HTML5, jQuery...
 Performance basics are covered: assets are minified into single CSS and JS files, and the images are optimized.
 
 info@paufish.com
