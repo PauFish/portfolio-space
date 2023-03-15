@@ -1545,6 +1545,7 @@ $(document).ready(function () {
                 l = $(".slider--item-left"),
                 c = $(".slider--item-center"),
                 h = $(".slider--item-right"),
+                hi = $(".slider--item-hidden"),
                 u = $(".slider--item");
             $(".slider").animate({
                 opacity: 0
